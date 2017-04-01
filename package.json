@@ -1,0 +1,23 @@
+{
+  "name": "nodeExpressCloudant",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node startApp.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2",
+    "mongodb": "^1.4.4",
+    "monk": "^1.0.1",
+    "cfenv":"^1.0.x",
+    "cloudant":"1.4.x"
+  },
+  "author": "jonathanliu@foxmail.com",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,6 @@
+---
+applications:
+ - name: nodeExpressCloudant
+   random-route: true
+   memory: 256M
+   command: node startApp.js
