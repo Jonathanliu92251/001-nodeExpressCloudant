@@ -13,7 +13,8 @@ var app = express();
 var index = require('./routes/index');
 var users = require('./routes/users');
 
-var db = connectDB( 'nodetest1' );
+var db = connectDB( 'nodetest001' );
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -76,6 +77,7 @@ function connectDB( dbName ) {
 
 		// Connect database
 		db = cloudant.db.use( dbName );
+		console.log("db is ", db);
 		return  db ;
 
 	}
